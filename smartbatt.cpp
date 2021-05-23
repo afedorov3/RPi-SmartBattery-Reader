@@ -296,7 +296,11 @@ int printDateCode(Wire &wire, op_t op, const char *tag)
   int myear = 1980 + (dateCode >> 9 & 0x7F);
   static const char *months[] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun",
                                   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
-  printf("%s: 0x%X (%s %d, %d)\n", tag, dateCode, months[mmonth], mday, myear);
+  printf("%s: 0x%X", tag, dateCode);
+  if ((mday >= 1) && (mmonth >= 1) && (mmonth <= 12))
+    printf(" (%s %d, %d)\n", months[mmonth - 1], mday, myear);
+  else
+    puts(" [invalid]");
 
   return 0;
 }
