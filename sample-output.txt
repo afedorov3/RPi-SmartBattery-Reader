@@ -1,0 +1,43 @@
+Specification info: Rev. 1, Ver. 2 (1.1), vscale 10^0 = 1, ipscale 10^0 = 1
+Battery mode: 0
+  Bit 0: 0 Internal Charge Controller Not Supported
+  Bit 1: 0 Primary Battery Not Supported
+  Bit 7: 0 Battery OK
+  Bit 8: 0 Internal Charge Control Disabled (default)
+  Bit 9: 0 Battery operating in its secondary role (default)
+  Bit 13: 0 Broadcasts of AlarmWarning to Host and Smart Battery Charger Enabled (default)
+  Bit 14: 0 Broadcasts of ChargingVoltage and ChargingCurrent to Smart Battery Charger Enabled (default)
+  Bit 15: 0 Report in mA or mAh (default)
+Battery status: 2D0
+  Bit 4: FULLY DISCHARGED
+  Bit 6: DISCHARGING
+  Bit 7: INITIALIZED
+  Bit 9: REMAINING CAPACITY ALARM
+Manufacturer access: 0xC000 (49152)
+Manufacturer name: SANYO
+Device name: AP13B3K
+Device chemistry: LION
+S/N: 0x04D2 (1234)
+Manufacture date: 0x4314 (Aug 20, 2013)
+Manufacturer data:
+  00 00 00 00 00 00 00 00 00 00 00 00
+Design capacity: 3560 mAh
+Design voltage: 15 V
+Charging voltage: 17.2 V
+Charging current: 1.78 A
+Temperature: 26.15°C (79.07°F)
+Voltage: 14.893 V
+Cell 1 voltage: 3.714 V
+Cell 2 voltage: 3.739 V
+Cell 3 voltage: 3.724 V
+Cell 4 voltage: 3.716 V
+Current: 0 A
+Average current: 0 A
+Full charge capacity: 2428 mAh
+Remaining capacity: 109 mAh
+Relative state of charge: 4 %
+Absolute state of charge: 3 %
+Average time to full: unknown
+Average time to empty: unknown
+Cycle count: 194
+Maximum capacity (health): 68 %
